@@ -31,9 +31,6 @@ GEM
     mercenary (0.3.6)
     minima (2.1.0)
       jekyll (~> 3.3)
-    net-sftp (2.1.2)
-      net-ssh (>= 2.6.5)
-    net-ssh (4.0.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -43,8 +40,6 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
-    travis-custom-deploy (0.0.6)
-      net-sftp (~> 2.1.2)
 
 PLATFORMS
   ruby
@@ -53,7 +48,6 @@ DEPENDENCIES
   jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-  travis-custom-deploy
 
 RUBY VERSION
    ruby 2.4.0p0
