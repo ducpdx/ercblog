@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "January Update"
+title:  "Toward First Results"
 categories: update meeting
 ---
 
