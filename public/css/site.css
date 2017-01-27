@@ -9,3 +9,22 @@
   text-align:      center;
   font-size:       1.2em;
 }
+
+body {
+  padding: 1em;
+}
+
+.katex-rendered {
+  color: black;
+  padding-bottom:  1rem;
+  padding-top:     1rem;
+  text-align:      center;
+  font-size:       1.2em;
+}
+.mathjax-rendered {
+  color: black;
+  padding-bottom:  1rem;
+  padding-top:     1rem;
+  text-align:      center;
+  font-size:       1.2em;
+}
