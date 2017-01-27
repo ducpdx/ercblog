@@ -20,7 +20,7 @@ title:  "Toward First Results"
 <b>Instructions for entering ASCIIMath</b>
 <div>
 
-Use the <b>backtick</b> character before and after math, like this: $\displaystyle{x}=\frac{{-{b}\pm\sqrt{{{b}^{2}-{4}{a}{c}}}}}{{{2}{a}}}$. 
+Use the <b>backtick</b> character before and after math 
 
 Enter fractions with a forward slash, /, as in `y/z`.
 
