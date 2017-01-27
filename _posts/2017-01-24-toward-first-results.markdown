@@ -5,10 +5,12 @@ title:  "Toward First Results"
 
 <!-- KaTeX -->
 <link rel="stylesheet" href="/ducefd/ercblog/_site/public/katex.min.css">
-<link rel="stylesheet" href="/ducefd/ercblog/_site/publlic/css/site.css">
+<link rel="stylesheet" href="/ducefd/ercblog/_site/public/css/site.css">
 <script src="/ducefd/ercblog/_site/public/katex.min.js"></script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
-<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script> 
+<!---<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>--> 
+<script src="/ducefd/ercblog/_site/public/ASCIIMathML.js"></script>
+<script src="/ducefd/ercblog/_site/public/LaTeXMathML.js"></script>
 
 {% raw %}
 <!-- The Normal Distribution -->
@@ -27,9 +29,23 @@ $$
 $$
 
 <div>
-`o+`
+``(1, 2)``
 </div>
 
+<div>
+``o+``
+``((a,b),(c,d))``
+</div>
+
+$$
+o+
+$$
+
+Einstein's famous formula is
+
+`E=mc^2`,
+
+where `E` is energy, `m` is mass and `c` is the speed of light.
 			
 <script type="text/javascript">
 

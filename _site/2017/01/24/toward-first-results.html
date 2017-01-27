@@ -65,13 +65,16 @@
     <!-- KaTeX -->
 <link rel="stylesheet" href="/ducefd/ercblog/_site/public/katex.min.css" />
 
-<link rel="stylesheet" href="/ducefd/ercblog/_site/publlic/css/site.css" />
+<link rel="stylesheet" href="/ducefd/ercblog/_site/public/css/site.css" />
 
 <script src="/ducefd/ercblog/_site/public/katex.min.js"></script>
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
 
-<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>
+<!---<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>-->
+<script src="/ducefd/ercblog/_site/public/ASCIIMathML.js"></script>
+
+<script src="/ducefd/ercblog/_site/public/LaTeXMathML.js"></script>
 
 <!-- The Normal Distribution -->
 <div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}">
@@ -88,8 +91,21 @@
 \end{align} %]]></script>
 
 <div>
-`o+`
+``(1, 2)``
 </div>
+
+<div>
+``o+``
+``((a,b),(c,d))``
+</div>
+
+<script type="math/tex; mode=display">o+</script>
+
+<p>Einstein’s famous formula is</p>
+
+<p><code class="highlighter-rouge">E=mc^2</code>,</p>
+
+<p>where <code class="highlighter-rouge">E</code> is energy, <code class="highlighter-rouge">m</code> is mass and <code class="highlighter-rouge">c</code> is the speed of light.</p>
 
 <script type="text/javascript">
 
