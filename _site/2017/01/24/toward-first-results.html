@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Prism Layer in Star-CCM+</title>
-  <meta name="description" content="Meshing around">
+  <title>Toward First Results</title>
+  <meta name="description" content="">
 
-  <link rel="stylesheet" href="/ducefd/ercblog/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/ducefd/ercblog/update/meeting/2017/01/26/prism-layer-meshing.html">
-  <link rel="alternate" type="application/rss+xml" title="Duc Nguyen" href="/ducefd/ercblog/feed.xml">
+  <link rel="stylesheet" href="/ducefd/ercblog/_site/assets/main.css">
+  <link rel="canonical" href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results.html">
+  <link rel="alternate" type="application/rss+xml" title="Duc Nguyen" href="/ducefd/ercblog/_site/feed.xml">
   
   
 </head>
@@ -23,7 +23,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/ducefd/ercblog/">Duc Nguyen</a>
+    <a class="site-title" href="/ducefd/ercblog/_site/">Duc Nguyen</a>
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -57,12 +57,51 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Prism Layer in Star-CCM+</h1>
-    <p class="post-meta"><time datetime="2017-01-26T00:00:00+01:00" itemprop="datePublished">Jan 26, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">Toward First Results</h1>
+    <p class="post-meta"><time datetime="2017-01-24T00:00:00+01:00" itemprop="datePublished">Jan 24, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Meshing around</p>
+    <!-- KaTeX -->
+<link rel="stylesheet" href="/ducefd/ercblog/_site/public/katex.min.css" />
+
+<link rel="stylesheet" href="/ducefd/ercblog/_site/publlic/css/site.css" />
+
+<script src="/ducefd/ercblog/_site/public/katex.min.js"></script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+
+<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>
+
+<!-- The Normal Distribution -->
+<div class="equation" data-expr="\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}">
+</div>
+<!--{% endraw }-->
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align} %]]></script>
+
+<div>
+`o+`
+</div>
+
+<script type="text/javascript">
+
+    // grab all elements in DOM with the class 'equation'
+    var tex = document.getElementsByClassName("equation");
+
+    // for each element, render the expression attribute
+    Array.prototype.forEach.call(tex, function(el) {
+        katex.render(el.getAttribute("data-expr"), el);
+    });
+</script>
+
 
   </div>
 
