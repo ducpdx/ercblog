@@ -8,9 +8,7 @@ title:  "Toward First Results"
 <link rel="stylesheet" href="/ducefd/ercblog/_site/public/css/site.css">
 <script src="/ducefd/ercblog/_site/public/katex.min.js"></script>
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
-<!---<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>--> 
-<script src="/ducefd/ercblog/_site/public/ASCIIMathML.js"></script>
-<script src="/ducefd/ercblog/_site/public/LaTeXMathML.js"></script>
+<script src="/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js"></script>
 
 {% raw %}
 <!-- The Normal Distribution -->
@@ -18,34 +16,33 @@ title:  "Toward First Results"
 </div>
 <!--{% endraw }-->
 
-$$
-\begin{align}
-\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
- & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
- & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
- & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
- & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
-\end{align}
-$$
 
+<b>Instructions for entering ASCIIMath</b>
 <div>
-``(1, 2)``
+
+Use the <b>backtick</b> character before and after math, like this: $\displaystyle{x}=\frac{{-{b}\pm\sqrt{{{b}^{2}-{4}{a}{c}}}}}{{{2}{a}}}$. 
+
+Enter fractions with a forward slash, /, as in `y/z`.
+
+Products and powers of variables: `ab^2`.
+
+Integrals: `int_(0)^(2 pi) sin\ x\ dx = 0`.
+
+Square root is like this: `sqrt(169) = 13`.
+
+Summation notation: `sum_(i=1)^ni^3` 
+
+`3xx3` matrix: `[(1,2,3),(4,8,3),(-5,4,9)]`
+
+Greek, too: `A = pi r^2`
+
+<b>Special note:</b>
+
+When using "less than" or "greater than" signs, put a SPACE before and after them, like this: 
+
+If `x < 3`, then `y > 0`.
+
 </div>
-
-<div>
-``o+``
-``((a,b),(c,d))``
-</div>
-
-$$
-o+
-$$
-
-Einstein's famous formula is
-
-`E=mc^2`,
-
-where `E` is energy, `m` is mass and `c` is the speed of light.
 			
 <script type="text/javascript">
 

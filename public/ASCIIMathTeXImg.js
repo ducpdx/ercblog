@@ -894,7 +894,7 @@ function AMparseMath(str) {
 //	return AMparseMath(str);
 //}
 
-function AMTparseMath(str) {
+function AMTparseMath() {
 	var node = document.createElement("span");
 	thisId = "mathId"+counter;
 	node.id = thisId;
