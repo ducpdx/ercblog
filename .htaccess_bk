@@ -1,0 +1,4 @@
+AuthUserFile /d2/html/ducefd/safedir/.htpasswd
+AuthType Basic
+AuthName "Password Protected Area"
+require valid-user
