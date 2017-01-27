@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Duc Nguyen
+author: Duc Nguyen
 #email: your-email@domain.com
 #description: > # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -26,11 +27,21 @@ url: "http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/" # the base hostname &
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 kramdown:
   math_engine: mathjax
-gems:
-  - jekyll-feed
+#gems:
+#  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
