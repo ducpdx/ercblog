@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-27T15:11:29+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><entry><title type="html">Prism Layer in Star-CCM+</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html" rel="alternate" type="text/html" title="Prism Layer in Star-CCM+" /><published>2017-01-26T00:00:00+01:00</published><updated>2017-01-26T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;!-- KaTeX --&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-27T15:18:52+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><entry><title type="html">Prism Layer in Star-CCM+</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html" rel="alternate" type="text/html" title="Prism Layer in Star-CCM+" /><published>2017-01-26T00:00:00+01:00</published><updated>2017-01-26T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/26/prism-layer-meshing</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;!-- KaTeX --&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/katex.min.css&quot; /&gt;
 
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/css/site.css&quot; /&gt;
@@ -6,7 +6,6 @@
 &lt;script src=&quot;/ducefd/ercblog/_site/public/katex.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full&quot;&gt;&lt;/script&gt;
-
 &lt;script src=&quot;/ducefd/ercblog/_site/public/ASCIIMathTeXImg.js&quot;&gt;&lt;/script&gt;
 
 &lt;!-- The Normal Distribution --&gt;
@@ -15,30 +14,9 @@
 &lt;!--{% endraw }--&gt;
 
 &lt;p&gt;&lt;b&gt;Instructions for entering ASCIIMath&lt;/b&gt;&lt;/p&gt;
+
 &lt;div&gt;
-
-Use the &lt;b&gt;backtick&lt;/b&gt; character before and after math 
-
-Enter fractions with a forward slash, /, as in `y/z`.
-
-Products and powers of variables: `ab^2`.
-
-Integrals: `int_(0)^(2 pi) sin\ x\ dx = 0`.
-
-Square root is like this: `sqrt(169) = 13`.
-
-Summation notation: `sum_(i=1)^ni^3` 
-
-`3xx3` matrix: `[(1,2,3),(4,8,3),(-5,4,9)]`
-
-Greek, too: `A = pi r^2`
-
-&lt;b&gt;Special note:&lt;/b&gt;
-
-When using &quot;less than&quot; or &quot;greater than&quot; signs, put a SPACE before and after them, like this: 
-
-If `x &amp;lt; 3`, then `y &amp;gt; 0`.
-
+`x = (-b +- sqrt(b^2-4ac))/(2a) .`
 &lt;/div&gt;
 
 &lt;script type=&quot;text/javascript&quot;&gt;
