@@ -27,6 +27,8 @@ url: "http://www2.ts.ctw.utwente.nl/ducefd/ercblog" # the base hostname & protoc
 # Build settings
 markdown: kramdown
 theme: minima
+kramdown:
+  math_engine: mathjax
 gems:
   - jekyll-feed
 exclude:
