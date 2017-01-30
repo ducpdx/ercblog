@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-30T09:45:14+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><entry><title type="html">Cavitation and Surface tension in Thin film layer flow</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html" rel="alternate" type="text/html" title="Cavitation and Surface tension in Thin film layer flow" /><published>2017-01-27T00:00:00+01:00</published><updated>2017-01-27T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/css/site.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-30T12:08:28+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><author><name>Duc Nguyen</name></author><entry><title type="html">Cavitation and Surface tension in Thin film layer flow</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html" rel="alternate" type="text/html" title="Cavitation and Surface tension in Thin film layer flow" /><published>2017-01-27T00:00:00+01:00</published><updated>2017-01-27T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><author><name>Duc Nguyen</name></author><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site/ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/css/site.css&quot; /&gt;
 
 &lt;!-- KaTeX --&gt;
 
@@ -6,10 +6,12 @@
 
 &lt;script src=&quot;/ducefd/ercblog/_site/public/katex.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/p&gt;
+
 &lt;p&gt;The formula&lt;/p&gt;
 &lt;dtex&gt;V_{ex}\propto\int\left[\int\sin \theta_{ij}\frac{d\epsilon_{i}}{\epsilon_{\text{sum}}}\right]\frac{d\epsilon_{j}}{\epsilon_{\text{sum}}},&lt;/dtex&gt;
 &lt;p&gt;was introduced by &lt;citep&gt;saevik&lt;/citep&gt;. The variable &lt;tex&gt;V_{ex}&lt;/tex&gt; is the &lt;em&gt;Excluded Volume&lt;/em&gt; &lt;citet&gt;balberg,saevik&lt;/citet&gt;. Other interesting formulas include&lt;/p&gt;
+&lt;dtex id=&quot;einstein&quot;&gt;E = mc^2,&lt;/dtex&gt;
 &lt;dtex id=&quot;darcy&quot;&gt;\mathbf{u}=-K\left(\nabla p+\rho g\nabla z\right),&lt;/dtex&gt;
 &lt;p&gt;where &lt;eqref&gt;einstein&lt;/eqref&gt; is &lt;a href=&quot;https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence&quot;&gt;Einstein’s famous formula&lt;/a&gt;, and &lt;eqref&gt;darcy&lt;/eqref&gt; is &lt;a href=&quot;https://en.wikipedia.org/wiki/Darcy%27s_law&quot;&gt;Darcy’s law&lt;/a&gt;.&lt;/p&gt;
 
@@ -28,7 +30,7 @@
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;tex&gt;kg/m^3&lt;/tex&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;ttex&gt;kg/m^3&lt;/ttex&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -49,6 +51,14 @@
 &lt;/table&gt;
 
 &lt;dtex id=&quot;einstein&quot;&gt;E = mc^2,&lt;/dtex&gt;
+
+&lt;p&gt;&lt;b&gt;References&lt;/b&gt;&lt;/p&gt;
+&lt;ol type=&quot;1&quot; class=&quot;references&quot;&gt;
+
+&lt;li id=&quot;saevik&quot; auth=&quot;Sævik et al.&quot; year=&quot;2013&quot;&gt;Sævik, P. N., Berre, I., Jakobsen, M., &amp;amp; Lien, M. (2013). A 3D Computational Study of Effective Medium Methods Applied to Fractured Media. &lt;em&gt;Transport in Porous Media, 100&lt;/em&gt;(1), 115–142. &lt;a href=&quot;http://dx.doi.org/10.1007/s11242-013-0208-0&quot;&gt;doi:10.1007/s11242-013-0208-0&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&quot;balberg&quot; auth=&quot;Berkowitz and Balberg&quot; year=&quot;1992&quot;&gt;Berkowitz, B., &amp;amp; Balberg, I. (1992). Percolation approach to the problem of hydraulic conductivity in porous media. &lt;em&gt;Transport in Porous Media, 9&lt;/em&gt;(3), 275–286. &lt;a href=&quot;http://dx.doi.org/10.1007/BF00611971&quot;&gt;doi:10.1007/BF00611971&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;script&gt;
 	var txlist = document.getElementsByTagName(&quot;tex&quot;);
@@ -95,6 +105,22 @@
 		var txtext = &quot;\\displaystyle &quot; + tx.textContent;
 		var html = katex.renderToString(txtext, tx, { displayMode: true });
 		tx.innerHTML = &quot;&lt;div class='katex-display'&gt;&quot; + html + &quot;&lt;span class=eqnum&gt;(&quot; + (i+1) + &quot;)&lt;/span&gt;&lt;/div&gt;&quot;;
+		
+		if (tx.id.length &gt; 0) {
+			var tx2list = document.querySelectorAll(&quot;a[href='#&quot; + tx.id + &quot;']&quot;)
+			for (var j = 0; j &lt; tx2list.length; j++) {
+				tx2list[j].innerHTML = &quot;&quot; + (i+1);
+			}
+		}
+		
+	}
+	
+	txlist = document.getElementsByTagName(&quot;ttex&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var txtext = &quot;\\displaystyle &quot; + tx.textContent;
+		var html = katex.renderToString(txtext, tx, { displayMode: true });
+		tx.innerHTML = &quot;&lt;span class='katex-display-table'&gt;&quot; + html + &quot;&lt;/span&gt;&quot;;
 		
 		if (tx.id.length &gt; 0) {
 			var tx2list = document.querySelectorAll(&quot;a[href='#&quot; + tx.id + &quot;']&quot;)
@@ -161,4 +187,4 @@
 		render(el);
 	});
     
-&lt;/script&gt;--&gt;</content><summary type="html"></summary></entry></feed>
+&lt;/script&gt;--&gt;</content><author><name>Duc Nguyen</name></author><summary type="html"></summary></entry></feed>

@@ -11,20 +11,33 @@ title:  "Toward First Results"
 <script src="/ducefd/ercblog/_site/public/katex.min.js"></script>
 
 
-<h1>Introduction</h1>
+<b>Introduction</b>
+
 The formula 
 <dtex>V_{ex}\propto\int\left[\int\sin \theta_{ij}\frac{d\epsilon_{i}}{\epsilon_{\text{sum}}}\right]\frac{d\epsilon_{j}}{\epsilon_{\text{sum}}},</dtex>
 was introduced by <citep>saevik</citep>. The variable <tex>V_{ex}</tex> is the <em>Excluded Volume</em> <citet>balberg,saevik</citet>. Other interesting formulas include
+<dtex id='einstein'>E = mc^2,</dtex>
 <dtex id='darcy'>\mathbf{u}=-K\left(\nabla p+\rho g\nabla z\right),</dtex>
 where <eqref>einstein</eqref> is <a href="https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence">Einstein's famous formula</a>, and <eqref>darcy</eqref> is <a href="https://en.wikipedia.org/wiki/Darcy%27s_law">Darcy's law</a>.
 
+
 | 1 | 2 | 2 | 4 |   |
 |:-:|:-:|:-:|:-:|:-:|
-|   |   |   | <tex>kg/m^3</tex>  |   |
+|   |   |   | <ttex>kg/m^3</ttex>  |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 
 <dtex id='einstein'>E = mc^2,</dtex>
+
+
+<b>References</b>
+<ol type="1" class ="references">
+
+<li id="saevik" auth="Sævik et al." year="2013">Sævik, P. N., Berre, I., Jakobsen, M., & Lien, M. (2013). A 3D Computational Study of Effective Medium Methods Applied to Fractured Media. <em>Transport in Porous Media, 100</em>(1), 115–142. <a href="http://dx.doi.org/10.1007/s11242-013-0208-0">doi:10.1007/s11242-013-0208-0</a></li>
+
+<li id="balberg" auth="Berkowitz and Balberg" year="1992">Berkowitz, B., & Balberg, I. (1992). Percolation approach to the problem of hydraulic conductivity in porous media. <em>Transport in Porous Media, 9</em>(3), 275–286. <a href="http://dx.doi.org/10.1007/BF00611971">doi:10.1007/BF00611971</a></li>
+</ol>
+
 
 
 <script>
@@ -72,6 +85,22 @@ where <eqref>einstein</eqref> is <a href="https://en.wikipedia.org/wiki/Mass%E2%
 		var txtext = "\\displaystyle " + tx.textContent;
 		var html = katex.renderToString(txtext, tx, { displayMode: true });
 		tx.innerHTML = "<div class='katex-display'>" + html + "<span class=eqnum>(" + (i+1) + ")</span></div>";
+		
+		if (tx.id.length > 0) {
+			var tx2list = document.querySelectorAll("a[href='#" + tx.id + "']")
+			for (var j = 0; j < tx2list.length; j++) {
+				tx2list[j].innerHTML = "" + (i+1);
+			}
+		}
+		
+	}
+	
+	txlist = document.getElementsByTagName("ttex");
+	for (var i = 0; i < txlist.length; i++) {
+		var tx = txlist[i];
+		var txtext = "\\displaystyle " + tx.textContent;
+		var html = katex.renderToString(txtext, tx, { displayMode: true });
+		tx.innerHTML = "<span class='katex-display-table'>" + html + "</span>";
 		
 		if (tx.id.length > 0) {
 			var tx2list = document.querySelectorAll("a[href='#" + tx.id + "']")

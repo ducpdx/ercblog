@@ -6,33 +6,45 @@
 
 .eqnum {
 	float: right;
-	margin-right: 2rem;
-	font-size: 1.2rem;
+	margin-right: .5rem;
+	font-size: 1.25rem;
 }
 
-
-section h1 {
-	font-size: 1.2rem;
-	font-weight: bold;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+ol{
+    counter-reset: item;
+	width: 55%;
 }
 
-.references li {
+li {
 	margin-bottom: 1em;
+}
+li:before {
+    content: counters(item, ".")". ";
+    counter-increment: item
+}
+
+li.nolist:before{
+	content:none
+}
+.katex-display-table{
+	font-size: .85em;
+	letter-spacing: 0.04em;	
 }
 
 .katex-display {
-    width: 100%;
+    width: 55%;
     padding-bottom:  1rem;
     padding-top:     1rem;
-    text-align:      left;
     vertical-align: left;
-	font-size: 1.16rem;
+	font-size: 1.25em;
+}
+
+.table{
+	width:auto;
+	margin-top: 2rem
 }
 
 .katex {
-	font-size: 1em;
-	letter-spacing: 0.1em;
+	font-size: .95em;
 }
 

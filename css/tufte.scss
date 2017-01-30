@@ -152,7 +152,8 @@ h1 code, h2 code, h3 code { font-size: 0.80em; } //left in for no real reason
 /*-- Table styling section - For Tufte-Jekyll, booktabs style is default for Markdown tables  --*/
 
 table, table.booktabs { width: auto;  //making booktabs style tables the unstyled default in case someone uses Markdown styling
-                 margin: 0 auto;
+                 //margin: 0 auto;
+				 margin-top: 2%;
                  border-spacing: 0px;
                  border-top: 2px solid $border-color;
                  border-bottom: 2px solid $border-color; }
@@ -327,7 +328,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                              margin-right: 1%;
                                              vertical-align: baseline;
                                              position: relative; }
-                            div.table-wrapper, table, table.booktabs { width: 85%; }
+							 /*--- default table:85%*/
+                            div.table-wrapper, table, table.booktabs { width: auto; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
                             img { max-width: 100%; } }
 /*--- End of Basic Layout stuff from tufte.css ---*/
@@ -595,3 +597,7 @@ hr.slender {
   content: "\e60e";
 }
 /*-- End of Icomoon icon font section --*/
+
+li.listing:before{
+	content:none
+}
