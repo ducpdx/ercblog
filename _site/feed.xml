@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-27T17:47:25+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><author><name>Duc Nguyen</name></author><entry><title type="html">Cavitation and Surface tension in Thin film layer flow</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html" rel="alternate" type="text/html" title="Cavitation and Surface tension in Thin film layer flow" /><published>2017-01-27T00:00:00+01:00</published><updated>2017-01-27T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><author><name>Duc Nguyen</name></author><summary type="html">Meshing around</summary></entry><entry><title type="html">Prism Layer in Star-CCM+</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html" rel="alternate" type="text/html" title="Prism Layer in Star-CCM+" /><published>2017-01-26T00:00:00+01:00</published><updated>2017-01-26T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/26/prism-layer-meshing.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><author><name>Duc Nguyen</name></author><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://www2.ts.ctw.utwente.nl/ducefd/ercblog/_site//ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/css/site.css&quot; /&gt;
-
-&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
-  window.MathJax.Hub.Config({
-    skipStartupTypeset: true,
-    displayAlign: 'left',
-    extensions: ['MatchWebFonts.js'],
-    TeX: {
-      extensions: ['cancel.js', 'enclose.js']
-    }
-  });
-&lt;/script&gt;
-
-&lt;script src=&quot;//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/ducefd/ercblog/_site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/ducefd/ercblog/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ducefd/ercblog/_site/" rel="alternate" type="text/html" /><updated>2017-01-30T09:45:14+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site//</id><title type="html">Duc Nguyen</title><entry><title type="html">Cavitation and Surface tension in Thin film layer flow</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html" rel="alternate" type="text/html" title="Cavitation and Surface tension in Thin film layer flow" /><published>2017-01-27T00:00:00+01:00</published><updated>2017-01-27T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/27/cavitation-surface-tension.html">&lt;p&gt;Meshing around&lt;/p&gt;</content><summary type="html">Meshing around</summary></entry><entry><title type="html">Toward First Results</title><link href="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html" rel="alternate" type="text/html" title="Toward First Results" /><published>2017-01-24T00:00:00+01:00</published><updated>2017-01-24T00:00:00+01:00</updated><id>http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results</id><content type="html" xml:base="http://localhost:4000/ducefd/ercblog/_site/2017/01/24/toward-first-results.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/ducefd/ercblog/_site/public/css/site.css&quot; /&gt;
 
 &lt;!-- KaTeX --&gt;
 
@@ -19,25 +6,130 @@
 
 &lt;script src=&quot;/ducefd/ercblog/_site/public/katex.min.js&quot;&gt;&lt;/script&gt;
 
-&lt;!-- The Normal Distribution --&gt;
-&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&gt;
-&lt;/div&gt;
-&lt;!--{% endraw }--&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;The formula&lt;/p&gt;
+&lt;dtex&gt;V_{ex}\propto\int\left[\int\sin \theta_{ij}\frac{d\epsilon_{i}}{\epsilon_{\text{sum}}}\right]\frac{d\epsilon_{j}}{\epsilon_{\text{sum}}},&lt;/dtex&gt;
+&lt;p&gt;was introduced by &lt;citep&gt;saevik&lt;/citep&gt;. The variable &lt;tex&gt;V_{ex}&lt;/tex&gt; is the &lt;em&gt;Excluded Volume&lt;/em&gt; &lt;citet&gt;balberg,saevik&lt;/citet&gt;. Other interesting formulas include&lt;/p&gt;
+&lt;dtex id=&quot;darcy&quot;&gt;\mathbf{u}=-K\left(\nabla p+\rho g\nabla z\right),&lt;/dtex&gt;
+&lt;p&gt;where &lt;eqref&gt;einstein&lt;/eqref&gt; is &lt;a href=&quot;https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence&quot;&gt;Einstein’s famous formula&lt;/a&gt;, and &lt;eqref&gt;darcy&lt;/eqref&gt; is &lt;a href=&quot;https://en.wikipedia.org/wiki/Darcy%27s_law&quot;&gt;Darcy’s law&lt;/a&gt;.&lt;/p&gt;
 
-&lt;!--{% endraw }--&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;4&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;tex&gt;kg/m^3&lt;/tex&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;!--{% raw %}--&gt;
+&lt;dtex id=&quot;einstein&quot;&gt;E = mc^2,&lt;/dtex&gt;
+
+&lt;script&gt;
+	var txlist = document.getElementsByTagName(&quot;tex&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var txtext = tx.textContent;
+		katex.render(txtext, tx);
+	}
+	
+	txlist = document.getElementsByTagName(&quot;citep&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var citerefs = tx.textContent.split(&quot;,&quot;);
+		var tags = &quot;&lt;a href='#&quot; + citerefs[0] + &quot;'&gt;&lt;/a&gt;&quot;;
+		for (var j = 1; j &lt; citerefs.length; j++) {
+			var citeref = citerefs[j];
+			tags = tags + &quot;, &lt;a href='#&quot; + citeref + &quot;'&gt;&lt;/a&gt;&quot;
+		}
+		tx.innerHTML = tags;
+	}
+	
+	txlist = document.getElementsByTagName(&quot;citet&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var citerefs = tx.textContent.split(&quot;,&quot;);
+		var tags = &quot;(&lt;a href='#&quot; + citerefs[0] + &quot;'&gt;&quot;+citeref+&quot;&lt;/a&gt;&quot;;
+		for (var j = 1; j &lt; citerefs.length; j++) {
+			var citeref = citerefs[j];
+			tags = tags + &quot;; &lt;a href='#&quot; + citeref + &quot;'&gt;&quot;+citeref+&quot;&lt;/a&gt;&quot;
+		}
+		tags = tags + &quot;)&quot;;
+		tx.innerHTML = tags;
+	}
+	
+	txlist = document.getElementsByTagName(&quot;eqref&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		tx.innerHTML = &quot;(&lt;a href='#&quot; + tx.textContent + &quot;'&gt;&lt;/a&gt;)&quot;;
+	}
+	
+	txlist = document.getElementsByTagName(&quot;dtex&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var txtext = &quot;\\displaystyle &quot; + tx.textContent;
+		var html = katex.renderToString(txtext, tx, { displayMode: true });
+		tx.innerHTML = &quot;&lt;div class='katex-display'&gt;&quot; + html + &quot;&lt;span class=eqnum&gt;(&quot; + (i+1) + &quot;)&lt;/span&gt;&lt;/div&gt;&quot;;
+		
+		if (tx.id.length &gt; 0) {
+			var tx2list = document.querySelectorAll(&quot;a[href='#&quot; + tx.id + &quot;']&quot;)
+			for (var j = 0; j &lt; tx2list.length; j++) {
+				tx2list[j].innerHTML = &quot;&quot; + (i+1);
+			}
+		}
+		
+	}
+	
+	txlist = document.querySelectorAll(&quot;.references li&quot;);
+	for (var i = 0; i &lt; txlist.length; i++) {
+		var tx = txlist[i];
+		var tx2list = document.querySelectorAll(&quot;citep a[href='#&quot; + tx.id + &quot;']&quot;)
+		for (var j = 0; j &lt; tx2list.length; j++) {
+			tx2list[j].innerHTML = &quot;[&quot; + (i+1) + &quot;]&quot;;
+			var str = tx.getAttribute(&quot;auth&quot;) + &quot; (&quot; + tx.getAttribute(&quot;year&quot;) + &quot;)&quot;;
+			tx2list[j].innerHTML = str;
+		}
+		var tx2list = document.querySelectorAll(&quot;citet a[href='#&quot; + tx.id + &quot;']&quot;)
+		for (var j = 0; j &lt; tx2list.length; j++) {
+			tx2list[j].innerHTML = &quot;[&quot; + (i+1) + &quot;]&quot;;
+			var str = tx.getAttribute(&quot;auth&quot;) + &quot;, &quot; + tx.getAttribute(&quot;year&quot;);
+			tx2list[j].innerHTML = str;
+		}
+	}
+&lt;/script&gt;
+
+&lt;!----&gt;
 &lt;!-- The Normal Distribution --&gt;
 &lt;!--&lt;div class=&quot;equation&quot; data-expr=&quot;\displaystyle P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}&quot;&gt;
 &lt;/div&gt;--&gt;
 &lt;!--{% endraw }--&gt;
 
-&lt;p&gt;&lt;b&gt;KaTeX with MAthJAx fallback&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;maths&quot;&gt;c = \sqrt{a^2 + b^2}&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;maths&quot;&gt;J_\alpha(x) = \sum\limits_{m=0}^\infty\frac{(-1)^m}{m! \, \Gamma(m + \alpha + 1)}{\bigl({\frac{x}{2}}\bigr)}^{2 m + \alpha}&lt;/p&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--&lt;script type=&quot;text/javascript&quot;&gt;
 
 	// grab all elements in DOM with the class 'equation'
     //var tex = document.getElementsByClassName(&quot;equation&quot;);
@@ -69,4 +161,4 @@
 		render(el);
 	});
     
-&lt;/script&gt;</content><author><name>Duc Nguyen</name></author><summary type="html"></summary></entry></feed>
+&lt;/script&gt;--&gt;</content><summary type="html"></summary></entry></feed>

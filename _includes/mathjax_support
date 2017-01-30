@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="../../../public/css/site.css">
+
+<!-- KaTeX -->
+
+<link rel="stylesheet" href="../../../public/katex.min.css">
+<script src="../../../public/katex.min.js"></script>
+
+
+<!-- Mathjax -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+	scale: 100,
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!--<script type="text/x-mathjax-config">
+  window.MathJax.Hub.Config({
+    skipStartupTypeset: true,
+    displayAlign: 'left',
+    extensions: ['MatchWebFonts.js'],
+    TeX: {
+      extensions: ['cancel.js', 'enclose.js']
+    }
+  });
+</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>-->
+

@@ -3,28 +3,36 @@
  *
  * Center the equation content.
  */
-.equation {
-  padding-bottom:  1rem;
-  padding-top:     1rem;
-  text-align:      center;
-  font-size:       1.2em;
+
+.eqnum {
+	float: right;
+	margin-right: 2rem;
+	font-size: 1.2rem;
 }
 
-body {
-  padding: 1em;
+
+section h1 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
-.katex-rendered {
-  color: black;
-  padding-bottom:  1rem;
-  padding-top:     1rem;
-  text-align:      center;
-  font-size:       1.2em;
+.references li {
+	margin-bottom: 1em;
 }
-.mathjax-rendered {
-  color: black;
-  padding-bottom:  1rem;
-  padding-top:     1rem;
-  text-align:      center;
-  font-size:       1.2em;
+
+.katex-display {
+    width: 100%;
+    padding-bottom:  1rem;
+    padding-top:     1rem;
+    text-align:      left;
+    vertical-align: left;
+	font-size: 1.16rem;
 }
+
+.katex {
+	font-size: 1em;
+	letter-spacing: 0.1em;
+}
+
